@@ -11,7 +11,7 @@ public class Questao01 {
 	        pilha.push(3);
 	        pilha.push(4);
 
-	        // Acima estamos mostrando na tela as pilhas
+	        // Estamos mostrando na tela as pilhas na sequencia inicial 
 	        System.out.println("Pilha antes das operacoes: " + pilha);
 		
 	       pilha.pop();
@@ -20,6 +20,8 @@ public class Questao01 {
 	       pilha.push(3);
 	       pilha.push(4);
 	       pilha.push(2);
+
+		// A pilha foi reformulada da maneira que foi solicitada. retirando e adicionando novamente 3 componentes
 	       System.out.println("Pilha apos as operacoes: " + pilha);
 	}
 
